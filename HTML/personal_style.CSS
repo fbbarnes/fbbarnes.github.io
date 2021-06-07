@@ -1,0 +1,85 @@
+body {
+  background-color: white;
+  font-family: "Avenir", Helvetica, serif;
+
+}
+
+
+a.heading{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+
+h2 button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: inherit;
+  /*input has OS specific font-family*/
+  color: "black";
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hidden {
+  width: 100%;
+  display: none;
+}
+
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+
+
+
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

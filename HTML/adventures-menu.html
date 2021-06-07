@@ -1,0 +1,37 @@
+
+<script>
+function toggleContent(element) {
+    element.style.display = (element.dataset.toggled ^= 1) ? "block" : "none";
+};
+</script>
+
+
+<h2><button onclick="toggleContent(document.getElementById('adventures_content'));"><h2>Adventures</h2></button></h2>
+<div class="hidden" id="adventures_content">
+
+<table>
+  <tr>
+
+    <th>
+      <div class="container">
+        <a href="moss-side-to-kinder-scout.html"><img src="/Users/frederik/Software-Development/Web/Personal Website/Images/fred-kinder-600x450.jpg" alt="Looking over Kinder reservoir from the top." style="width:100%;"></a>
+        <div class="centered">Moss Side to Kinder Scout</div>
+      </div>
+    </th>
+
+    <th>
+      <div class="container">
+        <a href="ethiopia.html"><img src="/Users/frederik/Software-Development/Web/Personal Website/Images/simien-sunset-edited-600x450.jpeg" alt="Sunset in the Simien Mountains, Ethiopia." style="width:100%;"></a>
+        <div class="centered">Ethiopia</div>
+      </div>
+    </th>
+
+    <th>
+      <div class="container">
+         <a href="arctic-run.html"><img src="/Users/frederik/Software-Development/Web/Personal Website/Images/skala-600x450.jpg" alt="Skåla in Nordfjord, Norway" style="width:100%;">  </a>
+        <div class="centered">Arctic Run</div>
+      </div>
+    </th>
+
+  </tr>
+</table>
