@@ -4,9 +4,9 @@
 <link rel="stylesheet" href="/CSS/personal_style.CSS">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
-function toggleContent(element) {
-    element.style.display = (element.dataset.toggled ^= 1) ? "block" : "none";
-};
+  $(function(){
+    $('#adventures').load('adventures-menu.html');
+  });
 </script>
 </head>
 <body>
@@ -21,38 +21,9 @@ function toggleContent(element) {
 
 
 
-<h2><button onclick="toggleContent(document.getElementById('adventures_content'));"><h2>More adventures</h2></button></h2>
-<div class="hidden" id="adventures_content">
-
-<table>
-  <tr>
-
-    <th>
-      <div class="container">
-        <a href="moss-side-to-kinder-scout.html"><img src="/Images/fred-kinder-600x450.jpg" alt="Looking over Kinder reservoir from the top." style="width:100%;"></a>
-        <div class="centered">Moss Side to Kinder Scout</div>
-      </div>
-    </th>
-
-    <th>
-      <div class="container">
-        <a href="ethiopia.html"><img src="/Images/simien-sunset-edited-600x450.jpeg" alt="Sunset in the Simien Mountains, Ethiopia." style="width:100%;"></a>
-        <div class="centered">Ethiopia</div>
-      </div>
-    </th>
-
-    <th>
-      <div class="container">
-         <a href="arctic-run.html"><img src="/Images/skala-600x450.jpg" alt="Skåla in Nordfjord, Norway" style="width:100%;">  </a>
-        <div class="centered">Arctic Run</div>
-      </div>
-    </th>
-
-  </tr>
-</table>
-
-
+<div id="adventures">
 </div>
+
 
 </body>
 </html>
