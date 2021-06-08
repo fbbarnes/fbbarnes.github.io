@@ -3,12 +3,12 @@
 <head>
 <link rel="stylesheet" href="/CSS/personal_style.CSS">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
   $(function(){
     $('#adventures').load('adventures-menu.html');
   });
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
 function toggleContent(element) {
     element.style.display = (element.dataset.toggled ^= 1) ? "block" : "none";
