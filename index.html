@@ -8,6 +8,11 @@
     $('#adventures').load('adventures-menu.html');
   });
 </script>
+<script>
+function toggleContent(element) {
+    element.style.display = (element.dataset.toggled ^= 1) ? "block" : "none";
+};
+</script>
 </head>
 <body>
 
