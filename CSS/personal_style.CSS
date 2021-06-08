@@ -35,11 +35,7 @@ h2 button {
   width: 70%;
 }
 
-div.tiletext {
-  font-weight: bold;
-  text-align: center;
 
-}
 
 
 
@@ -52,6 +48,7 @@ div.tiletext {
   position: relative;
   text-align: center;
   color: white;
+  font-weight: bold;
 }
 
 /* Bottom left text */
