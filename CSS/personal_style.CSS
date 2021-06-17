@@ -18,7 +18,7 @@ p {
 a.heading{
   color: inherit;
   text-decoration: inherit;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 
@@ -32,7 +32,7 @@ h2 button {
   color: "black";
   text-decoration: underline;
   cursor: pointer;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 .hidden {
