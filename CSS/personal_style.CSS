@@ -32,6 +32,7 @@ h2 button {
   color: "black";
   text-decoration: underline;
   cursor: pointer;
+  font-size: 2vw;
 }
 
 .hidden {
