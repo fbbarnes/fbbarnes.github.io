@@ -10,9 +10,10 @@ body {
 
 
 p {
-  margin-left: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   font-size: 1.2vmax;
-  max-width: 1440px;
 }
 
 
@@ -45,7 +46,7 @@ h2 button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
 }
 
 
