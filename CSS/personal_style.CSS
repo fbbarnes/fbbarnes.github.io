@@ -19,7 +19,7 @@ p {
 a.heading{
   color: inherit;
   text-decoration: inherit;
-  font-size: 1.5vw;
+  font-size: 1.5vmax;
 }
 
 
