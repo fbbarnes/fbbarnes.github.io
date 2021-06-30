@@ -13,6 +13,13 @@ p {
   font-size: 1.5vmax;
 }
 
+ol {
+  font-size: 1.5vmax;
+}
+
+ul {
+  font-size: 1.5vmax;
+}
 
 a.heading{
   color: inherit;
