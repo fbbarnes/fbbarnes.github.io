@@ -35,9 +35,6 @@ h2 button {
 }
 
 h3 button {
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
   background: none!important;
   border: none;
   padding: 0!important;
