@@ -4,8 +4,6 @@ body {
   margin-top: 2%;
   margin-bottom: 5%;
   margin-right: 5%;
-
-
 }
 
 
@@ -21,7 +19,7 @@ ul {
   font-size: 1.2vmax;
 }
 
-a.heading{
+a.heading {
   color: inherit;
   text-decoration: inherit;
   font-size: 2vmax;
@@ -38,7 +36,7 @@ h2 button {
   color: "black";
   text-decoration: underline;
   cursor: pointer;
-  font-size: 1.5vmax;
+  font-size: 1.4vmax;
 }
 
 h3 button {
@@ -65,10 +63,6 @@ h3 button {
   margin-right: auto;
   width: 80%;
 }
-
-
-
-
 
 
 .content-section {
