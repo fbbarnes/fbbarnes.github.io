@@ -28,7 +28,7 @@ a.heading {
 button {
   background: none!important;
   border: none;
-  padding: 0 !important;
+  padding: 0.5vmax;
   margin: 0 !important;
   /*optional*/
   font-family: inherit;
@@ -36,21 +36,10 @@ button {
   color: "black";
   text-decoration: underline;
   cursor: pointer;
-  font-size: 2vmax;
 }
 
 h2 {
-  background: none!important;
-  border: none;
-  padding: 0 !important;
-  margin: 0 !important;
-  /*optional*/
-  font-family: inherit;
-  /*input has OS specific font-family*/
-  color: "black";
-  text-decoration: underline;
-  cursor: pointer;
-  font-size: 2vmax;
+    font-size: 2vmax;
 }
 
 
