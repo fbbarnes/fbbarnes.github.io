@@ -10,6 +10,11 @@
   });
 </script>
 <script>
+  $(function(){
+    $('#thoughts').load('thoughts-menu.html');
+  });
+</script>
+<script>
 function toggleContent(element) {
     element.style.display = (element.dataset.toggled ^= 1) ? "block" : "none";
 };
@@ -49,6 +54,9 @@ function toggleContent(element) {
 
 
 <div id="adventures">
+</div>
+
+<div id="thoughts">
 </div>
 
 
