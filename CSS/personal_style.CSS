@@ -28,7 +28,7 @@ a.heading {
 button {
   background: none!important;
   border: none;
-  padding: 0.5vmax;
+  padding: 0 !important;
   margin: 0 !important;
   /*optional*/
   font-family: inherit;
