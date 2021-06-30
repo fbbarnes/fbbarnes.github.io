@@ -79,6 +79,15 @@ h3 button {
   width: 80%;
 }
 
+.landscape {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
 
 .content-section {
   display: block;
