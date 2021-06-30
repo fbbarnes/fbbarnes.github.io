@@ -29,7 +29,7 @@ a.heading {
 h2 button {
   background: none!important;
   border: none;
-  padding: 0!important;
+  padding: 0;
   /*optional*/
   font-family: inherit;
   /*input has OS specific font-family*/
