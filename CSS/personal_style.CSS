@@ -39,7 +39,9 @@ button {
 }
 
 h2 {
-    font-size: 2vmax;
+  font-size: 2vmax;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 
