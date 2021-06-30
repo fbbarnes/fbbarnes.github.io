@@ -25,6 +25,33 @@ a.heading {
   font-size: 2vmax;
 }
 
+button {
+  background: none!important;
+  border: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*optional*/
+  font-family: inherit;
+  /*input has OS specific font-family*/
+  color: "black";
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.4vmax;
+}
+
+h2 {
+  background: none!important;
+  border: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  /*optional*/
+  font-family: inherit;
+  /*input has OS specific font-family*/
+  color: "black";
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1.4vmax;
+}
 
 h2 button {
   background: none!important;
