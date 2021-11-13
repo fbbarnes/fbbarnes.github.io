@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Fred's Website</title>
+  <link>https://www.fbbarnes.github.io/index</link>
+  <description>Frederik Brooke Barnes's personal website</description>
+  <item>
+    <title>Loch Lomond</title>
+    <link>https://fbbarnes.github.io/loch-lomond.html</link>
+    <description>Adventure to Loch Lomond</description>
+  </item>
+  <item>
+    <title>Coast to Coast</title>
+    <link>https://fbbarnes.github.io/coast-to-coast.html</link>
+    <description>Alfred Wainwright's coast to coast.</description>
+  </item>
+</channel>
+
+</rss>
