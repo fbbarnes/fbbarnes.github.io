@@ -6,6 +6,16 @@
   <link>https://www.fbbarnes.github.io/index</link>
   <description>Frederik Brooke Barnes's personal website</description>
   <item>
+    <title>St Oswald's Way</title>
+    <link>https://fbbarnes.github.io/st-oswalds.html</link>
+    <description>Adventure along St Oswald's way</description>
+    <image>
+     <url>https://fbbarnes.github.io/Images/adam-knowesgate-600x450.jpeg</url>
+     <title>Adam along St Oswald's way</title>
+     <link>https://fbbarnes.github.io/Images/adam-knowesgate-600x450.jpeg</link>
+    </image>
+  </item>
+  <item>
     <title>Loch Lomond</title>
     <link>https://fbbarnes.github.io/loch-lomond.html</link>
     <description>Adventure to Loch Lomond</description>
